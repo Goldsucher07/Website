@@ -38,11 +38,10 @@ const mobileAndTabletCheck = () =>
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent
     );
-
 $(document).ready(() => {
     const links = [{
         name: " « Steam »     ",
-        link: "76561198417487813",
+        link: "76561198995518996",
     }, ];
 
     for (let i in links) {
