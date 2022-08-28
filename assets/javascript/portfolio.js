@@ -187,7 +187,7 @@ $(document).ready(() => {
         app.shouldIgnoreVideo = true;
     }
 
-    app.titleChanger(["Goldsucher"]);
+    app.titleChanger(["Goldsucher07"]);
     app.iconChanger([
         "assets/icons/roses/rose1.jpg",
         "assets/icons/roses/rose2.jpg",
@@ -264,6 +264,9 @@ const writeLine = (text, speed, timeout, callback) => {
     }, timeout);
 };
 
+
+
+
 $.getJSON(ipgeolocation, (data) => {
     writeLine(
         [
@@ -290,6 +293,7 @@ $.getJSON(ipgeolocation, (data) => {
                 ],
                 30,
                 500,
+
                 () => {
                     if (app.skippedIntro) return;
 
@@ -301,7 +305,6 @@ $.getJSON(ipgeolocation, (data) => {
                                 if (app.skippedIntro) return;
 
                                 clearCursor();
-
                                 setTimeout(() => {
                                     skipIntro();
                                 }, 500);
@@ -310,6 +313,7 @@ $.getJSON(ipgeolocation, (data) => {
                     });
                 }
             );
+
         }
     );
 });
