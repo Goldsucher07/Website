@@ -1,7 +1,7 @@
 /*
 
 Credits:
-    - Lummit - https://obnoxious.club/ | https://github.com/Lumm1t/ | Discord: Lummit#0201
+    - Lummit - https://obnoxious.club/ | https://Github.com/Lumm1t/ | Discord: Lummit#0201
     - expl0it, shellcode.team
     - Steam (emoticon: https://steamcommunity-a.akamaihd.net/economy/emoticon/mgh_17)
     - Trollface image (http://www.rw-designer.com/icon-image/7835-256x256x32.png)
@@ -23,7 +23,7 @@ Thanks for:
     - animate.css
     - typed.js
 
-GitHub: https://github.com/Lumm1t/obnoxious.club
+Github: https://Github.com/Lumm1t/obnoxious.club
 
 */
 
@@ -41,7 +41,7 @@ const mobileAndTabletCheck = () =>
 
 $(document).ready(() => {
     const links = [{
-        name: " « steam »     ",
+        name: " « Steam »     ",
         link: "76561198417487813",
     }, ];
 
@@ -55,7 +55,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -65,7 +65,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -75,7 +75,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -85,7 +85,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -95,7 +95,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -105,7 +105,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -115,7 +115,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -125,7 +125,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -135,7 +135,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -145,7 +145,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -155,7 +155,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
         $("#marquee").append(
@@ -165,7 +165,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
+            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
 
@@ -222,7 +222,7 @@ $("html").on("contextmenu", (event) => {
     img.src = "assets/others/trollface.jpg";
     img.width = 64;
     img.height = 64;
-    img.alt = "`Goldsucher.tk";
+    img.alt = "`Goldsucher.gq";
     img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
     img.className = `troll ${trollfaceLight}`;
 
