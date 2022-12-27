@@ -37,7 +37,13 @@ const timeouts = [];
 const mobileAndTabletCheck = () =>
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent
+
     );
+
+
+const backgroundFiles = ["assets/others/gommemode.mp4", "assets/others/maxiking.mp4"]
+const selectedBackground = backgroundFiles[Math.floor(Math.random() * backgroundFiles.length)];
+
 $(document).ready(() => {
     const links = [{
         name: " « Steam »     ",
@@ -176,10 +182,12 @@ $(document).ready(() => {
             );
     }
 
-    if (mobileAndTabletCheck()) {
+    //MARK: HIER
+
+    if (true) {
         $("#background").replaceWith(
             `<video autoplay muted loop id="background">
-      <source src="assets/others/drift1.mp4" type="video/mp4" />
+      <source src="${selectedBackground}" type="video/mp4" />
       </video>`
         );
 
