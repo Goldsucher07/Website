@@ -1,7 +1,7 @@
 /*
 
 Credits:
-    - Lummit - https://obnoxious.club/ | https://Github.com/Lumm1t/ | Discord: Lummit#0201
+    - Lummit - https://obnoxious.club/ | https://github.com/Lumm1t/ | Discord: Lummit#0201
     - expl0it, shellcode.team
     - Steam (emoticon: https://steamcommunity-a.akamaihd.net/economy/emoticon/mgh_17)
     - Trollface image (http://www.rw-designer.com/icon-image/7835-256x256x32.png)
@@ -23,7 +23,7 @@ Thanks for:
     - animate.css
     - typed.js
 
-Github: https://Github.com/Lumm1t/obnoxious.club
+GitHub: https://github.com/Lumm1t/obnoxious.club
 
 */
 
@@ -37,17 +37,12 @@ const timeouts = [];
 const mobileAndTabletCheck = () =>
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent
-
     );
-
-
-const backgroundFiles = ["assets/others/gommemode.mp4", "assets/others/maxiking.mp4"]
-const selectedBackground = backgroundFiles[Math.floor(Math.random() * backgroundFiles.length)];
 
 $(document).ready(() => {
     const links = [{
-        name: " « Steam »     ",
-        link: "76561198995518996",
+        name: " « steam »     ",
+        link: "76561198417487813",
     }, ];
 
     for (let i in links) {
@@ -60,7 +55,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -70,7 +65,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -80,7 +75,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -90,7 +85,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -100,7 +95,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -110,7 +105,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -120,7 +115,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -130,7 +125,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -140,7 +135,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -150,7 +145,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -160,7 +155,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
         $("#marquee").append(
@@ -170,7 +165,7 @@ $(document).ready(() => {
             `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
         );
         $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
+            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « github »     </a>`
         );
 
 
@@ -182,19 +177,17 @@ $(document).ready(() => {
             );
     }
 
-    //MARK: HIER
-
-    if (true) {
+    if (mobileAndTabletCheck()) {
         $("#background").replaceWith(
             `<video autoplay muted loop id="background">
-      <source src="${selectedBackground}" type="video/mp4" />
+      <source src="assets/others/drift1.mp4" type="video/mp4" />
       </video>`
         );
 
         app.shouldIgnoreVideo = true;
     }
 
-    app.titleChanger(["Goldsucher07"]);
+    app.titleChanger(["Goldsucher"]);
     app.iconChanger([
         "assets/icons/roses/rose1.jpg",
         "assets/icons/roses/rose2.jpg",
@@ -229,7 +222,7 @@ $("html").on("contextmenu", (event) => {
     img.src = "assets/others/trollface.jpg";
     img.width = 64;
     img.height = 64;
-    img.alt = "`Goldsucher.gq";
+    img.alt = "`Goldsucher.tk";
     img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
     img.className = `troll ${trollfaceLight}`;
 
@@ -271,14 +264,11 @@ const writeLine = (text, speed, timeout, callback) => {
     }, timeout);
 };
 
-
-
-
 $.getJSON(ipgeolocation, (data) => {
     writeLine(
         [
             "Authenticating...",
-            "Granting access to <span style='font-size: 14px; color: #06d;'>[Goldsucher.gq]</span>...",
+            "Granting access to <span style='font-size: 14px; color: #06d;'>[Goldsucher.tk]</span>...",
         ],
         30,
         () => {
@@ -300,7 +290,6 @@ $.getJSON(ipgeolocation, (data) => {
                 ],
                 30,
                 500,
-
                 () => {
                     if (app.skippedIntro) return;
 
@@ -312,6 +301,7 @@ $.getJSON(ipgeolocation, (data) => {
                                 if (app.skippedIntro) return;
 
                                 clearCursor();
+
                                 setTimeout(() => {
                                     skipIntro();
                                 }, 500);
@@ -320,7 +310,6 @@ $.getJSON(ipgeolocation, (data) => {
                     });
                 }
             );
-
         }
     );
 });
