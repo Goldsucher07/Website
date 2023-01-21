@@ -41,7 +41,7 @@ const mobileAndTabletCheck = () =>
 
 $(document).ready(() => {
     const links = [{
-        name: " « steam »     ",
+        name: " « Steam »     ",
         link: "76561198417487813",
     }, ];
 
