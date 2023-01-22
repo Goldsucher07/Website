@@ -222,7 +222,7 @@ $("html").on("contextmenu", (event) => {
     img.src = "assets/others/trollface.jpg";
     img.width = 64;
     img.height = 64;
-    img.alt = "`Goldsucher.tk";
+    img.alt = "`Goldsucher.gq";
     img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
     img.className = `troll ${trollfaceLight}`;
 
