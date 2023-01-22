@@ -39,162 +39,27 @@ const mobileAndTabletCheck = () =>
         navigator.userAgent
     );
 
-$(document).ready(() => {
-    const links = [{
-        name: " « Steam »     ",
-        link: "76561198417487813",
-    }, ];
-
-    for (let i in links) {
-        let link = links[i];
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
-
-        $("#marquee").append(
-            `<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`
-        );
-        $("#marquee").append(
-            `<a href="https://open.spotify.com/user/s6lxaamsvczi7m0yixwp906k4?si=03e6293cbca9404f" target="_BLANK"> « Spotify Profil »     </a>`
-        );
-        $("#marquee").append(
-            `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
-        );
 
 
-        link = $("#marquee").children("a").last();
 
-        if (i != links.length - 1)
-            $("#marquee").append(
-                ' <img class="emoticon" src="assets/others/mgh_17.png"> '
-            );
-    }
-
-    if (mobileAndTabletCheck()) {
-        $("#background").replaceWith(
-            `<video autoplay muted loop id="background">
+if (mobileAndTabletCheck()) {
+    $("#background").replaceWith(
+        `<video autoplay muted loop id="background">
       <source src="assets/others/drift1.mp4" type="video/mp4" />
       </video>`
-        );
+    );
 
-        app.shouldIgnoreVideo = true;
-    }
+    app.shouldIgnoreVideo = true;
+}
 
-    app.titleChanger(["Goldsucher"]);
-    app.iconChanger([
-        "assets/icons/roses/rose1.jpg",
-        "assets/icons/roses/rose2.jpg",
-        "assets/icons/roses/rose3.jpg",
-        "assets/icons/roses/rose4.jpg",
-    ]);
-});
+app.titleChanger(["Goldsucher"]);
+app.iconChanger([
+    "assets/icons/roses/rose1.jpg",
+    "assets/icons/roses/rose2.jpg",
+    "assets/icons/roses/rose3.jpg",
+    "assets/icons/roses/rose4.jpg",
+]);
+
 
 document.addEventListener("contextmenu", (event) => {
     event.preventDefault();
