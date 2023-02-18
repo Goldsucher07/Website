@@ -169,6 +169,41 @@ $(document).ready(() => {
         );
 
 
+        // the min and max volume of the music is 0 and 1 so you can't go over 1 or under 0
+        document.addEventListener("keydown", (event) => {
+            if (event.key == "ArrowUp") {
+                app.audioElement.volume += 0.1;
+                app.videoElement.volume -= 0.1;
+            } else if (event.key == "ArrowDown") {
+                app.audioElement.volume -= 0.1;
+                // also mute the video 
+                app.videoElement.volume -= 0.1;
+            }
+        });
+
+        // can you dp this exept arrow up and down use the mouse wheel to change the volume of the music 
+        document.addEventListener("wheel", (event) => {
+            if (event.deltaY > 0) {
+                app.audioElement.volume -= 0.1;
+                app.videoElement.volume -= 0.1;
+            } else if (event.deltaY < 0) {
+                app.audioElement.volume += 0.1;
+
+            }
+        });
+
+
+        // also mute everything when you press the m key
+        document.addEventListener("keydown", (event) => {
+            if (event.key == "m") {
+                app.audioElement.volume = 0;
+                // mute everything also the video
+                app.videoElement.volume = 0;
+            }
+        });
+
+
+
         link = $("#marquee").children("a").last();
 
         if (i != links.length - 1)
