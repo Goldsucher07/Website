@@ -28,7 +28,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 </head>
 
-<body onload="initPage()">
+<body on load="initPage()">
   <script type="text/javascript" src="assets/javascript/app.js"></script>
 
   <div id="main">
@@ -71,16 +71,17 @@
         const audio = document.getElementById("audio");
 
         app.audioElement = audio;
-        app.audioElement.volume = 100;
+        app.audioElement.volume = 0;
       </script>
     </audio>
 
     <video src="assets/others/maxiking.mp4" id="background" loop preload="auto">
       <script>
+        console.log("maxiking.mp4 1");
         const video = document.getElementById("background");
 
         app.videoElement = video;
-        app.videoElement.volume = 100;
+        app.videoElement.volume = 0.32000000000000006;
       </script>
     </video>
   </div>
@@ -94,6 +95,10 @@
           style="color: rgb(255, 255, 255); font-style: Open Sans;">Contact</span></a></i>
   </div>
 
+  <div class="footer">
+
+  </div>
+
 
   <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
@@ -101,6 +106,9 @@
   <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
   <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
 
-</body>
-
-</html>
+  <div id="Volume">
+    <i>
+      <a style="opacity: 0.3" ; style="color: rgb(84, 19, 19)" ;>
+      </a>
+    </i>
+  </div>

@@ -26,6 +26,30 @@ Thanks for:
 Github: https://Github.com/Lumm1t/obnoxious.club
 
 */
+// Array mit den Videonamen
+const videos = [
+    'assets/others/maxiking.mp4',
+    'assets/others/Gigachad.mp4',
+    'assets/others/No-Lie COMPRESSED.mp4',
+];
+
+// Zufälliges Video auswählen, das nicht das zuletzt abgespielte ist
+let selectedVideo;
+let lastVideo = $.cookie('lastVideo');
+
+do {
+    let videoIndex = Math.floor(Math.random() * videos.length);
+    selectedVideo = videos[videoIndex];
+
+} while (selectedVideo === lastVideo);
+
+// Das zuletzt abgespielte Video in einem Cookie speichern
+$.cookie('lastVideo', selectedVideo);
+
+// Das ausgewählte Video als Quelle für das Video-Element setzen
+var videoElement = document.getElementById("background");
+videoElement.src = selectedVideo;
+
 
 "use strict";
 
@@ -168,27 +192,47 @@ $(document).ready(() => {
             `<a href="https://Github.com/Goldsucher07" target="_BLANK"> « Github »     </a>`
         );
 
-
+        var Volumedarstellung = document.getElementById("Volume");
         // the min and max volume of the music is 0 and 1 so you can't go over 1 or under 0
         document.addEventListener("keydown", (event) => {
             if (event.key == "ArrowUp") {
-                app.audioElement.volume += 0.1;
-                app.videoElement.volume -= 0.1;
+                if (app.audioElement.volume > 0.9) {
+                    app.audioElement.volume == 1
+                    app.videoElement.volume == 1
+                    Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
+                } else {
+                    console.log(app.audioElement.volume)
+                    app.audioElement.volume += 0.1;
+                    app.videoElement.volume += 0.1;
+                    Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
+                }
             } else if (event.key == "ArrowDown") {
-                app.audioElement.volume -= 0.1;
-                // also mute the video 
-                app.videoElement.volume -= 0.1;
+                if (app.audioElement.volume < 0.1) {
+
+                    app.audioElement.volume == 0
+                    app.videoElement.volume == 0
+                    Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
+                } else {
+                    console.log(app.audioElement.volume)
+                    app.audioElement.volume -= 0.1;
+                    // also mute the video 
+                    app.videoElement.volume -= 0.1;
+                    Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
+                }
             }
+
         });
+
 
         // can you dp this exept arrow up and down use the mouse wheel to change the volume of the music 
         document.addEventListener("wheel", (event) => {
             if (event.deltaY > 0) {
                 app.audioElement.volume -= 0.1;
                 app.videoElement.volume -= 0.1;
+                Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
             } else if (event.deltaY < 0) {
                 app.audioElement.volume += 0.1;
-
+                app.videoElement.volume += 0.1;
             }
         });
 
@@ -212,15 +256,7 @@ $(document).ready(() => {
             );
     }
 
-    if (mobileAndTabletCheck()) {
-        $("#background").replaceWith(
-            `<video autoplay muted loop id="background">
-      <source src="assets/others/drift1.mp4" type="video/mp4" />
-      </video>`
-        );
 
-        app.shouldIgnoreVideo = true;
-    }
 
     app.titleChanger(["Goldsucher"]);
     app.iconChanger([
@@ -393,7 +429,6 @@ const skipIntro = () => {
         setTimeout(() => {
             if (!app.shouldIgnoreVideo) {
                 app.videoElement.play();
-                app.audioElement.play();
             }
 
             app.videoElement.addEventListener("timeupdate", () => {}, false);
