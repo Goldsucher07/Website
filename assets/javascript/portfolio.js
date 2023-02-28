@@ -30,8 +30,8 @@ Github: https://Github.com/Lumm1t/obnoxious.club
 const videos = [
     'assets/others/Nightcore - Look What You Made Me Do (Rock Version) (Lyrics).mp4',
     'assets/others/No-Lie COMPRESSED.mp4',
-    'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT).mp4',
-    'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics).mp4',
+    'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT)_COMP.mp4',
+    'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics)_COMP.mp4',
 
 
 ];
