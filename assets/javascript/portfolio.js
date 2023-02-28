@@ -28,9 +28,12 @@ Github: https://Github.com/Lumm1t/obnoxious.club
 */
 // Array mit den Videonamen
 const videos = [
-    'assets/others/maxiking.mp4',
-    'assets/others/Gigachad.mp4',
+    'assets/others/Nightcore - Look What You Made Me Do (Rock Version) (Lyrics).mp4',
     'assets/others/No-Lie COMPRESSED.mp4',
+    'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT).mp4',
+    'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics).mp4',
+
+
 ];
 
 // Zufälliges Video auswählen, das nicht das zuletzt abgespielte ist
@@ -233,6 +236,7 @@ $(document).ready(() => {
             } else if (event.deltaY < 0) {
                 app.audioElement.volume += 0.1;
                 app.videoElement.volume += 0.1;
+                Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
             }
         });
 
@@ -243,6 +247,7 @@ $(document).ready(() => {
                 app.audioElement.volume = 0;
                 // mute everything also the video
                 app.videoElement.volume = 0;
+                Volumedarstellung.innerHTML = "volume:" + app.audioElement.volume;
             }
         });
 
