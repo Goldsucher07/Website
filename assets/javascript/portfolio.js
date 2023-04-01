@@ -41,10 +41,13 @@ let lastVideo = $.cookie('lastVideo');
 
 // Prüfen, ob der heutige Tag der 1. April ist
 const today = new Date();
+print(today.getDate() + '.' + today.getMonth()); // Konsole ausgeben
 if (today.getDate() === 1 && today.getMonth() === 3) {
     // Wenn ja, ein zufälliges Aprilscherz-Video auswählen
     const aprilFoolsVideos = videos.slice(-2); // Die letzten beiden Videos sind Aprilscherz-Videos
     selectedVideo = aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)];
+    print('April fools!'); // Konsole ausgeben
+
 } else {
     // Andernfalls wie bisher ein zufälliges Video auswählen
     do {
