@@ -32,25 +32,32 @@ const videos = [
     'assets/others/No-Lie COMPRESSED.mp4',
     'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT)_COMP.mp4',
     'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics)_COMP.mp4',
-
-
+    'assets/others/Never_Gonna_Give_You_Up.mp4', // Neues Video für den 1. April
+    'assets/others/RICK ASTLEY IS GONE and this is sad...  Never Gonna Give You Up without Rick Astley.mp4' // Neues Video für den 1. April
 ];
 
-// Zufälliges Video auswählen, das nicht das zuletzt abgespielte ist
 let selectedVideo;
 let lastVideo = $.cookie('lastVideo');
 
-do {
-    let videoIndex = Math.floor(Math.random() * videos.length);
-    selectedVideo = videos[videoIndex];
-
-} while (selectedVideo === lastVideo);
+// Prüfen, ob der heutige Tag der 1. April ist
+const today = new Date();
+if (today.getDate() === 1 && today.getMonth() === 3) {
+    // Wenn ja, ein zufälliges Aprilscherz-Video auswählen
+    const aprilFoolsVideos = videos.slice(-2); // Die letzten beiden Videos sind Aprilscherz-Videos
+    selectedVideo = aprilFoolsVideos[Math.floor(Math.random() * aprilFoolsVideos.length)];
+} else {
+    // Andernfalls wie bisher ein zufälliges Video auswählen
+    do {
+        const videoIndex = Math.floor(Math.random() * videos.length);
+        selectedVideo = videos[videoIndex];
+    } while (selectedVideo === lastVideo);
+}
 
 // Das zuletzt abgespielte Video in einem Cookie speichern
 $.cookie('lastVideo', selectedVideo);
 
 // Das ausgewählte Video als Quelle für das Video-Element setzen
-var videoElement = document.getElementById("background");
+const videoElement = document.getElementById('background');
 videoElement.src = selectedVideo;
 
 
