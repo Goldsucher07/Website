@@ -28,10 +28,10 @@ Github: https://Github.com/Lumm1t/obnoxious.club
 */
 // Array mit den Videonamen
 const videos = [
-    //'assets/others/Nightcore - Look What You Made Me Do (Rock Version) (Lyrics).mp4',
-    //'assets/others/No-Lie COMPRESSED.mp4',
-    // 'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT)_COMP.mp4',
-    // 'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics)_COMP.mp4',
+    'assets/others/Nightcore - Look What You Made Me Do (Rock Version) (Lyrics).mp4',
+    'assets/others/No-Lie COMPRESSED.mp4',
+    'assets/others/FLO RIDA - WHISTLE drill remix (prod. DOT)_COMP.mp4',
+    'assets/others/Nightcore - Blood __ Water (Rock Version) (Lyrics)_COMP.mp4',
     'assets/others/Never_Gonna_Give_You_Up.mp4', // Neues Video für den 1. April
     'assets/others/RICK ASTLEY IS GONE and this is sad...  Never Gonna Give You Up without Rick Astley.mp4' // Neues Video für den 1. April
 ];
